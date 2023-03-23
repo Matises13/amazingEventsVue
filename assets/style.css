@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+header{
+    /* display: flex;
+    flex-direction: row;
+    gap: 500px; */
+    min-height: 15vh;
+}
+main{
+    min-height: 75vh;
+}
+.logo{
+    height: 50px;
+}
+#home_carrousel{
+    background: url("./assets/img/Blog-Aucal-41-820x410.png");
+}
+#upcoming_carrousel{
+    background: url("./assets/img/link_eventos.jpg");
+}
+#past_carrousel{
+    background: url("./assets/img/images_past.jpg");
+}
+#carrousel_contact{
+    background: url("./assets/img/contact.jpg");
+    background-size: cover;
+}
+#carrousel_stats{
+    background: url("./assets/img/stats.jpg");
+    background-size: cover;
+}
+.cards{
+    display: flex;
+    flex-direction:column;
+
+    padding: 50px;
+}
+
+.card img{
+    height: 12rem;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: gray;
+    min-height: 10vh;
+}
+
+.icons_foot img{
+    padding: 30px;
+    width: 120px;
+}
+
+@media only screen and (max-width: 767px){
+
+    #check_box_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
